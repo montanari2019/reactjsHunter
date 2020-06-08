@@ -41,3 +41,31 @@
     
 }
 
+
+.produto-lista .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.produto-lista .actions button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2F4EDA;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+
+.produto-lista .actions button:disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+.produto-lista .actions button:hover{
+    opacity: 0.5;
+}
+
